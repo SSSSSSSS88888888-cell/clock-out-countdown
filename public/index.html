@@ -379,11 +379,11 @@ input, select { font-family: inherit; font-size: inherit; color: inherit; }
   position: absolute;
   top: 0; left: 0; right: 0;
   height: 1px;
-  background: linear-gradient(90deg, transparent, var(--text), transparent);
+  background: var(--text);
   opacity: 0.3;
 }
 .countdown-card.overtime::before {
-  background: linear-gradient(90deg, transparent, var(--warning), transparent);
+  background: var(--warning);
   opacity: 0.5;
 }
 .countdown-label {
@@ -595,7 +595,7 @@ input, select { font-family: inherit; font-size: inherit; color: inherit; }
 <div class="app">
   <header class="topbar">
     <div class="brand">
-      <div class="brand-mark">⏱</div>
+      <div class="brand-mark">時</div>
       <span>Clock-Out</span>
       <span class="brand-meta">v1.0</span>
     </div>
